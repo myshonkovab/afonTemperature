@@ -72,5 +72,4 @@ void loop(){
   Serial.print((Number_10 >> 3) & 0b0001);
   Serial.print((Number_100 >> 0) & 0b0001);
   Serial.print((Number_100 >> 1) & 0b0001);
-
 }
