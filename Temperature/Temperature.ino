@@ -4,7 +4,7 @@
 * Подключение ds18b20 к ардуино через пин 8  
 */
 OneWire ds(8); // Создаем объект OneWire для шины 1-Wire, с помощью которого будет осуществляться работа с датчиком
-int counter = 0;
+unsigned long counter = 0;
 void setup(){
   Serial.begin(9600);
   Serial.println("Время, с || Температура");
